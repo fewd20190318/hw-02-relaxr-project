@@ -28,7 +28,8 @@ body.blog {
 
 .topnav{
   display: flex;
-  align-items: space-between;
+  justify-content: space-between;
+  height: 125px;
 }
 
 /* unvisited link */
@@ -61,6 +62,12 @@ a:active {
   color: white;
   font-weight: semibold;
   font-size: 24px;
+  height: 150px;
+}
+
+.benefits h1{
+  font-weight: semibold;
+  font-size: 20px;
 }
 
 .getitnowbutton{
@@ -71,12 +78,18 @@ a:active {
   font-weight: Extrabold;
   border-radius: 5px;
   font-size: 12px
+  padding: 100px;
+  width: 175px;
 }
+
 
 .signupnow{
   display:flex;
   justify-content: center;
-  background-color: #f9e42e
+  background-color: #f9e42e;
+  font-weight: Extrabold;
+  border-radius: 5px;
+  font-size: 14px;
 }
 
 .signupnowinner{
@@ -87,6 +100,8 @@ a:active {
   background-color: white;
   height: 300px;
   width: 100%;
+  font-size: 13px;
+  font-weight: light;
 }
 
 .quote{
@@ -94,8 +109,63 @@ a:active {
   color: white;
 }
 
+.navlogo{
+  font-size: 24px;
+  font-style: Extrabold;
+  color: white;
+}
+
+.pagenav{
+  display: flex;
+}
+
+.pagenav a{
+  padding-left: 25px;
+}
+
+.relaxrlogo{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  font-weight: extrabold;
+  font-size: 24px;
+  color: #f9e42e;
+}
+
+.socialfooter{
+  display: flex;
+  justify-content: center;
+}
+
+.socialfooter img{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 9px;
+  font-weight: semibold;
+}
+
+
+
+
+"The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be." - Light, 13px
+"• Schedule meetings for you
+• Excel automation to complete your work for you
+• Responds to emails on your behalf
+• Does all your work for you with our revolutionary AI technology" - Light, 13px
+
 "“Relaxr changed my life. I’ve been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work.”" - Light Italic, 18px
 "- Amanda, Intuit " - semibold, 18px
+
+"Sign Up Now!" - extra bold, 12px, 5px border radius
+
 
 
 
