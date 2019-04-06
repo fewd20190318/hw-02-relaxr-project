@@ -34,7 +34,44 @@ body.blog {
 .headline{
   display: flex;
   justify-content: center;
+  color: white;
+  font-weight: semibold;
+  font-size: 24px;
 }
+
+.getitnowbutton{
+  display: flex;
+  justify-content: center;
+  background-color: #f9e42e;
+  color: #033048;
+  font-weight: Extrabold;
+  border-radius: 5px;
+  font-size: 12px
+}
+
+.signupnow{
+  display:flex;
+  justify-content: center;
+  background-color: #f9e42e
+}
+
+.signupnowinner{
+  background-color: #033048;
+}
+
+.benefits{
+  background-color: white;
+  height: 300px;
+  width: 100%;
+}
+
+.quote{
+  font-style: italic;
+  color: white;
+}
+
+"“Relaxr changed my life. I’ve been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work.”" - Light Italic, 18px
+"- Amanda, Intuit " - semibold, 18px
 
 
 
