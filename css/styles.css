@@ -26,6 +26,15 @@ body.blog {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+.topnav{
+  display: flex;
+  align-items: space-between;
+}
+
+.headline{
+  display: flex;
+  justify-content: center;
+}
 
 
 
