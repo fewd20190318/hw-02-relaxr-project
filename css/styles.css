@@ -31,6 +31,30 @@ body.blog {
   align-items: space-between;
 }
 
+/* unvisited link */
+a:link {
+  color: #606161;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #606161;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #606161;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #606161;
+  text-decoration: none;
+}
+
 .headline{
   display: flex;
   justify-content: center;
