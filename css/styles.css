@@ -87,13 +87,17 @@ a:active {
   display:flex;
   justify-content: center;
   background-color: #f9e42e;
-  font-weight: Extrabold;
-  border-radius: 5px;
-  font-size: 14px;
 }
 
 .signupnowinner{
   background-color: #033048;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px;
+  font-weight: extrabold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
 }
 
 .benefits{
@@ -107,6 +111,8 @@ a:active {
 .quote{
   font-style: italic;
   color: white;
+  padding: 100px;
+
 }
 
 .navlogo{
@@ -156,6 +162,15 @@ a:active {
   background-color: black;
 }
 
+hr{
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
 
 "The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be." - Light, 13px
 "• Schedule meetings for you
@@ -174,7 +189,6 @@ a:active {
 /******************************************
 /* LAYOUT
 /*******************************************/
-
 /* Center the container */
 
 .landing-page-container {
@@ -193,6 +207,20 @@ a:active {
   padding-bottom: 300px;
 }
 
+.blog-content-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.sidecontainer{
+  margin-left: 50px;
+}
+
+.adunit{
+  background-color: white;
+  height: 200px:
+  width: 200px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
