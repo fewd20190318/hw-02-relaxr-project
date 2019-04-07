@@ -1,3 +1,6 @@
+*{
+  border:1px dashed red;
+}
 /* Box Model Hack */
 * {
      -moz-box-sizing: border-box; /* Firexfox */
@@ -50,22 +53,38 @@ body.blog {
 /*******************************************/
 .header{
   color: white;
+  display: flex;
+  width: 100%;
 }
+
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 30px;
+  width:85%;
+}
+
 .benefits{
   background-color: #f0efef;
-  yellow: #f9e42e;
-  dark blue: #033048;
-  light grey: #606161;
-  almost black: #121212;
 }
+
 .headline{
   font-size: 24px;
+  width: 15%;
 }
 .button{
-  border: 5px solid yellow;
-  background-color: yellow;
-  color: blue;
+  border: 5px solid #f9e42e;
+  background-color: #f9e42e;
+  color: #121212;
   font-size: 14px;
   font-weight: bold;
   padding: 6px;
+  width: 100px;
+  border-radius: 10%;
+}
+
+.benefits h4 {
+  color: blue;
+  font-family: semibold;
 }
