@@ -61,3 +61,11 @@ body.blog {
 .headline{
   font-size: 24px;
 }
+.button{
+  border: 5px solid yellow;
+  background-color: yellow;
+  color: blue;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 6px;
+}
