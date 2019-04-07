@@ -217,10 +217,26 @@ hr{
 }
 
 .adunit{
+  display: flex;
+  align-self: center;
+  justify-content: center;
   background-color: white;
-  height: 200px:
+  height: 350px;
   width: 200px;
 }
+
+h4.blogarticlecontainer{
+  font-size: 24px;
+  font-weight: semibold;
+
+}
+
+.readmore{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
