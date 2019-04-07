@@ -15,7 +15,6 @@ body.landing-page {
    font-size: 12px;
    line-height: 1.4;
    font-family: 'Open Sans', sans-serif;
-
 }
 
 body.blog {
@@ -120,11 +119,17 @@ ol {
   color: #121212;
 }
 
-.quote {
+.bottom-container {
+  background-image: url("../images/testimonial_bg.jpg")
+}
+
+.quote p {
   color: #cecece;
   font-size: 18px;
   font-style: italic;
   font-weight: Light;
+  text-align: center;
+  padding-top: 15px;
 }
 
 .name {
@@ -155,4 +160,9 @@ ol {
   background-color: #033048;
   color: #cecece;
 
+}
+
+.footer {
+  background-color: #000;
+  height: 250px;
 }
