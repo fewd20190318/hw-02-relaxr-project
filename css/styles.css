@@ -11,19 +11,18 @@
 /*******************************************/
 
 body.landing-page {
-   color: #000;
+   /* color: #000; */
    font-size: 12px;
    line-height: 1.4;
-   font-family: Helvetica, Arial, sans-serif;
-   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-   background-size: cover;
+   font-family: 'Open Sans', sans-serif;
+
 }
 
 body.blog {
   color: #000;
   font-size: 12px;
   line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -37,7 +36,11 @@ body.blog {
   width: 100%;
   margin: auto;
   height: 500px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
 }
 
 .blog-container {
@@ -48,3 +51,108 @@ body.blog {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: space-between;
+  align-items: center;
+}
+
+.nav-right {
+  width: auto;
+  margin: 5px;
+}
+
+.nav a {
+  color: #cecece;
+  font-weight: light;
+  text-decoration: none;
+
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+}
+
+.logo a {
+  font-size: 24px;
+  font-weight: Extra bold;
+  color: #cecece;
+  text-decoration: none;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container h2 {
+  font-size: 24px;
+  font-weight: Semibold;
+  color: #cecece;
+}
+
+.top {
+  font-size: 14px;
+  color: #033048;
+  background-color: #f9e42e;
+}
+
+.middle-container h2 {
+  font-size: 20px;
+  font-weight: Semibold;
+}
+
+.middle-container p {
+  font-weight: Light;
+  font-size: 13px;
+  color: #121212;
+}
+
+ol {
+  font-weight: light;
+  font-size: 13px;
+  color: #121212;
+}
+
+.quote {
+  color: #cecece;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: Light;
+}
+
+.name {
+  color: #cecece;
+  font-size: 18px;
+  font-weight: semibold;
+}
+
+.yellow-bar {
+  background-color: #f9e42e;
+  height: 50px;
+}
+
+.button {
+  font-weight: bold;
+  text-align: center;
+  width: 125px;
+  height: 35px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom {
+  font-size: 12px;
+  background-color: #033048;
+  color: #cecece;
+
+}
