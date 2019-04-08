@@ -198,7 +198,30 @@ h1 {
   font-weight: 300;
 }
 
-.main-container {
+.blog-container .main-container {
   display: flex;
   flex-direction: row;
+  padding: 50px 0px;
+}
+
+.article-container {
+  width: 700px;
+  margin-right: 10px;
+  margin-left: 40px;
+}
+
+.article img {
+  display: block;
+  max-width: 700px;
+}
+
+.sidebar {
+  width: 240px;
+  margin-left: 10px;
+  margin-right: 40px;
+}
+
+.sidebar img {
+  display: block;
+  max-width: 150px;
 }
