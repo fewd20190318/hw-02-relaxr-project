@@ -215,13 +215,41 @@ h1 {
   max-width: 700px;
 }
 
+/* Sidebar styles. To spec looks off, fonts too big? */
+
 .sidebar {
   width: 240px;
   margin-left: 10px;
   margin-right: 40px;
 }
 
-.sidebar img {
+.sidebar h3 {
+  color: #033048;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.categories a {
+  display: block;
+  color: #033048;
+  text-decoration: none;
+  line-height: 1.6;
+  font-size: 24px;
+}
+
+.about p {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.about a {
+  color: #033048;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.advertisement img {
   display: block;
   max-width: 150px;
 }
