@@ -34,16 +34,77 @@ body.blog {
 /* Center the container */
 
 .landing-page-container {
+  display: flex;
   width: 100%;
   margin: auto;
   height: 500px;
-
+  flex-direction: column;
 }
 
 .blog-container {
   width: 960px;
   margin: auto;
 }
+
+.header {
+  height: 33%;
+  width: 100%;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-self: flex-start;
+  width: 30%;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 70%;
+}
+
+.link {
+  display: flex;
+  justify-content: flex-end;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+.motto {
+  display: flex;
+  flex-direction:row;
+  color: white;
+  align-items: center;
+}
+
+.button {
+  width: 20%;
+
+}
+
+.benefits {
+  height: 35%;
+  width: 100%;
+  background-color: white;
+  padding-left: 40px;
+}
+
+
+
+
+
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
