@@ -204,18 +204,54 @@ h1 {
   padding: 50px 0px;
 }
 
+/* Blog Article styles. */
+
 .article-container {
   width: 700px;
   margin-right: 10px;
   margin-left: 40px;
 }
 
-.article img {
-  display: block;
-  max-width: 700px;
+.article h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #033048;
 }
 
-/* Sidebar styles. To spec looks off, fonts too big? */
+.article p {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.article p::first-letter {
+  color: #606161;
+  font-size: 300%;
+  font-weight: 600;
+  float: left;
+  margin-top: -10px;
+  padding-right: 10px;
+}
+
+.article a {
+  display: block;
+  text-align: right;
+  color: #033048;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.article img {
+  display: block;
+  max-width: 620px;
+}
+
+.article {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #121212;
+}
+
+/* Blog Sidebar styles. To spec looks off, fonts too big? */
 
 .sidebar {
   width: 240px;
@@ -237,6 +273,10 @@ h1 {
   font-size: 24px;
 }
 
+.categories {
+  margin-bottom: 20px;
+}
+
 .about p {
   font-size: 22px;
   font-weight: 300;
@@ -249,6 +289,9 @@ h1 {
   font-weight: 600;
 }
 
+.about {
+  margin-bottom: 20px;
+}
 .advertisement img {
   display: block;
   max-width: 150px;
