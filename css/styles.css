@@ -193,6 +193,16 @@ h1 {
   padding: 15px 0;
 }
 
+.blog-container .nav-container .logo {
+  margin-left: -200px;
+
+}
+
+.blog-container .nav-container .nav {
+  margin-right: -180px;
+}
+
+
 .blog-container .nav-container a {
   color: #f9e42e;
   font-weight: 300;
@@ -263,6 +273,7 @@ h1 {
   color: #033048;
   font-size: 32px;
   font-weight: 800;
+  margin-bottom: 0;
 }
 
 .categories a {
@@ -281,6 +292,7 @@ h1 {
   font-size: 22px;
   font-weight: 300;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 .about a {
