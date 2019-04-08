@@ -280,6 +280,7 @@ h1 {
 .about p {
   font-size: 22px;
   font-weight: 300;
+  margin-bottom: 0;
 }
 
 .about a {
@@ -292,6 +293,7 @@ h1 {
 .about {
   margin-bottom: 20px;
 }
+
 .advertisement img {
   display: block;
   max-width: 150px;
