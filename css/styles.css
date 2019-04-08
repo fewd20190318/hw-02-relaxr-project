@@ -72,7 +72,7 @@ body.blog {
 }
 
 .landing-page-header {
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 280px;
   width: 100%;
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
@@ -196,4 +196,9 @@ h1 {
 .blog-container .nav-container a {
   color: #f9e42e;
   font-weight: 300;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
 }
