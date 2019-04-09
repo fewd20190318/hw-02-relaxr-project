@@ -11,17 +11,17 @@
 /*******************************************/
 
 body.landing-page {
-   /* color: #000; */
+   color: #000;
    font-size: 12px;
    line-height: 1.4;
-   font-family: 'Open Sans', sans-serif;
+   font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 body.blog {
-  color: #000;
+  background-color: #f0efef;
   font-size: 12px;
   line-height: 1.4;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 
@@ -34,12 +34,9 @@ body.blog {
 .landing-page-container {
   width: 100%;
   margin: auto;
-  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-  background-size: cover;
 }
 
 .blog-container {
@@ -50,71 +47,97 @@ body.blog {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-.nav {
+/* .header-container {
+  height: 175px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-content: space-between;
   align-items: center;
+} */
+
+.nav-item {
+  /* height: 50px;
+  width: 20%; */
+  margin-left: 20px;
 }
 
-.nav-right {
-  width: auto;
-  margin: 5px;
-}
-
-.nav a {
+.nav-item a {
   color: #cecece;
-  font-weight: light;
+  font-weight: 300;
   text-decoration: none;
-
 }
 
-.logo {
-  display: flex;
-  flex-direction: row;
-  align-self: flex-start;
+.logo-top {
+  /* align-self: flex-start; */
+  height: 150px;
+  width: 20%;
 }
 
-.logo a {
+.logo-top a {
   font-size: 24px;
-  font-weight: Extra bold;
+  font-weight: 800;
   color: #cecece;
   text-decoration: none;
 }
 
-.main-container {
+.nav-container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  width: 65%;
+  justify-content: flex-end;
   align-items: center;
 }
 
-.main-container h2 {
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.main-container {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+}
+
+h2 {
   font-size: 24px;
-  font-weight: Semibold;
+  font-weight: 600;
   color: #cecece;
+  text-align: center;
 }
 
 .top {
   font-size: 14px;
   color: #033048;
   background-color: #f9e42e;
+  margin-top: 40px;
+  margin-bottom: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.middle-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .middle-container h2 {
   font-size: 20px;
-  font-weight: Semibold;
+  font-weight: 600;
+  color: #033048;
 }
 
 .middle-container p {
-  font-weight: Light;
+  font-weight: 300;
   font-size: 13px;
   color: #121212;
 }
 
-ol {
-  font-weight: light;
+ul {
+  font-weight: 300;
   font-size: 13px;
   color: #121212;
 }
@@ -123,11 +146,11 @@ ol {
   background-image: url("../images/testimonial_bg.jpg")
 }
 
-.quote p {
+.quote {
   color: #cecece;
   font-size: 18px;
   font-style: italic;
-  font-weight: Light;
+  font-weight: 300;
   text-align: center;
   padding-top: 15px;
 }
@@ -135,34 +158,94 @@ ol {
 .name {
   color: #cecece;
   font-size: 18px;
-  font-weight: semibold;
+  font-weight: 800;
+  text-align: center;
 }
 
 .yellow-bar {
   background-color: #f9e42e;
   height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button {
-  font-weight: bold;
+  font-weight: 800;
   text-align: center;
-  width: 125px;
+  width: 150px;
   height: 35px;
   border-radius: 5px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  padding: 8px;
 }
 
 .bottom {
   font-size: 12px;
   background-color: #033048;
   color: #cecece;
-
 }
 
 .footer {
   background-color: #000;
   height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-footer a{
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9e42e;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.twitter {
+  margin-right: 20px;
+}
+
+.facebook {
+  margin-left: 20px;
+}
+
+.copyright {
+  font-size: 14px;
+  color: #cecece;
+  font-weight: bold;
+}
+
+/******************************************
+/* BLOG PAGE
+/*******************************************/
+
+.nav-blog {
+  font-size: 24px;
+  font-weight: semibold;
+}
+
+.main-column {
+  width: 700px;
+}
+
+.sidebar {
+  width: 240px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: semibold;
 }
