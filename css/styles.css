@@ -1,5 +1,5 @@
 *{
-  border:1px dashed red;
+   border:1px dashed red;
 }
 /* Box Model Hack */
 * {
@@ -55,16 +55,15 @@ body.blog {
   color: white;
   display: flex;
   width: 100%;
-  margin:0%
+  height: 70px;
 }
 
 .menu{
   display: flex;
-  align-items: center;
   justify-content: flex-end;
-  margin: 50px;
   width:85%;
   font-size: 15px;
+  align-items:center;
 }
 
 .benefits{
@@ -75,6 +74,7 @@ body.blog {
   font-size: 24px;
   width: 15%;
   font-weight:800;
+  margin: auto;
 }
 .button-container{
   width: 100%;
