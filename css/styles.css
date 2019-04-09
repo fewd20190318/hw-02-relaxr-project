@@ -301,14 +301,27 @@ hr {
 .sidebar h2 {
   font-size: 32px;
   font-weight: 800;
+  color: #121212;
+  text-align: left;
+  margin: 5px;
+}
+
+.sidebar ul {
+  font-size: 24px;
+  font-weight: 300;
+  list-style: none;
+  text-align: left;
+  margin-top: 5px;
 }
 
 .sidebar p {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 300;
+  margin-top: 5px;
 }
 
 .learn-more {
   font-size: 22px;
   font-weight: 600;
+  margin-bottom: 40px;
 }
