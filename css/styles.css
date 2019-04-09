@@ -193,7 +193,16 @@ a:link {
 .social-media {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.facebook
+{
+  margin-left: 12px;
+}
+
+.twitter {
+  margin-right: 12px;
 }
 
 .relaxr {
