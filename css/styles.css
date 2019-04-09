@@ -124,6 +124,9 @@ a:active {
 }
 
 .quote{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   font-style: italic;
   color: white;
   padding: 100px;
