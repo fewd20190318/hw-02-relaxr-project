@@ -6,15 +6,19 @@
 }
 
 
-/******************************************
-/* BASE STYLES
+/******************************************BASE STYLES
 /*******************************************/
+
+
+body{
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
 
 body.landing-page {
    color: #000;
    font-size: 12px;
    line-height: 1.4;
-   font-family: Helvetica, Arial, sans-serif;
+   font-family: "Open Sans", Helvetica, Arial, sans-serif;
    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
    background-size: cover;
 }
@@ -23,7 +27,7 @@ body.blog {
   color: #000;
   font-size: 12px;
   line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Open Sans",Helvetica, Arial, sans-serif;
 }
 
 .topnav{
@@ -235,6 +239,15 @@ h4.blogarticlecontainer{
   display: flex;
   justify-content: flex-end;
 }
+
+
+.blogfooter{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
 
 
 /******************************************
