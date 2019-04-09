@@ -23,7 +23,7 @@ body.blog {
   color: #000;
   font-size: 12px;
   line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 
@@ -42,11 +42,24 @@ body.blog {
 .landing {
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
+  padding: 20px 70px 20px 70px;
 }
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.header-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
+}
+
+.header-links a {
+  color: white;
+  text-decoration: none;
 }
 
 .blog-container {
@@ -65,8 +78,10 @@ h1 {
 }
 
 .tagline {
-  font-weight: Semibold;
+  font-weight: 600;
   font-size: 24px;
+  color: white;
+  text-align: center;
 }
 
 button {
@@ -74,22 +89,31 @@ button {
   font-size: 14px;
   border-radius: 5px;
   background-color: yellow;
+  width: 150px;
+  padding: 10px;
+}
+
+
+.content {
+  padding: 50px;
 }
 
 .testimonial {
   background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
-}
-
-.testimonial p {
   color: white;
-  font-weight: ;
   font-style: italic;
   font-size: 18px;
+  padding: 50px 200px 50px 200px;
+  text-align: center;
+}
+
+.quote {
+  font-weight: 300;
 }
 
 .attribution {
-  font-weight: semibold 18px;
+  font-weight: 600;
 }
 
 ul {
