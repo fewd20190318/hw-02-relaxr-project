@@ -14,7 +14,7 @@ body.landing-page {
    color: #000;
    font-size: 12px;
    line-height: 1.4;
-   font-family: Helvetica, Arial, sans-serif;
+   font-family: 'Open Sans', sans-serif; Arial, Helvetica;
    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
    background-size: cover;
 }
@@ -23,7 +23,7 @@ body.blog {
   color: #000;
   font-size: 12px;
   line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -37,8 +37,10 @@ body.blog {
   display: flex;
   width: 100%;
   margin: auto;
-  height: 500px;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
 }
 
 .blog-container {
@@ -47,8 +49,13 @@ body.blog {
 }
 
 .header {
-  height: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 220px;
   width: 100%;
+  margin: 0 auto;
 }
 
 .navigation {
@@ -61,18 +68,23 @@ body.blog {
   display: flex;
   align-self: flex-start;
   width: 30%;
+  margin-left: 40px;
+  font-weight: 800;
+  font-size: 24px;
 }
 
 .links-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  width: 70%;
+  width: 50%;
+  margin-right: 40px;
 }
 
 .link {
   display: flex;
   justify-content: flex-end;
+  margin-left: auto;
 }
 
 a:link {
@@ -82,22 +94,121 @@ a:link {
 
 .motto {
   display: flex;
-  flex-direction:row;
+  justify-content: center;
   color: white;
-  align-items: center;
+  width: 100%;
+  margin-top: 40px;
+  font-style: 600;
+  font-size: 24px;
 }
 
 .button {
-  width: 20%;
-
+  width: 10%;
+  height: 24px;
+  background-color: yellow;
+  margin-left: 45%;
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 2px;
+  color: black;
+  border-radius: 5%;
+  font-style: 800;
+  font-size: 14px;
 }
 
 .benefits {
-  height: 35%;
+  height: 220px;
   width: 100%;
   background-color: white;
   padding-left: 40px;
+  padding-top: 40px;
 }
+
+.benefits h1 {
+  font-style: 600;
+  font-size: 20px;
+}
+
+.benefits p {
+  font-style: 300:italic;
+  font-size: 13px;
+}
+
+.three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 190px;
+  width: 100%;
+  color: white;
+  background: url(../images/testimonial_bg.jpg)
+}
+
+.quote {
+  width: 20%;
+  height: 75%;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.amanda {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.offer{
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  width: 100%;
+  background: yellow;
+}
+
+.signup {
+  height: 30px;
+  width: 10%;
+  background-color: #033048;
+  color: white;
+  padding-left: 20px;
+  padding-top: 7px;
+  margin-top: 15px;
+  font-weight: 800;
+  font-size: 12px;
+  border-radius: 5%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  color: white;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.relaxr {
+  font-weight: 800;
+  font-size: 24px;
+  color: #f9e42e;
+  margin-bottom: 40px;
+}
+
+.copyright {
+  font-weight: 600;
+  font-size: 9px;
+  margin-top: 35px;
+}
+
 
 
 
