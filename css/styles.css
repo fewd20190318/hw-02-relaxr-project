@@ -14,7 +14,7 @@ body.landing-page {
    color: #000;
    font-size: 12px;
    line-height: 1.4;
-   font-family: Helvetica, Arial, sans-serif;
+   font-family: 'Open Sans', sans-serif;
    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
    background-size: cover;
 }
@@ -23,7 +23,7 @@ body.blog {
   color: #000;
   font-size: 12px;
   line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -48,3 +48,200 @@ body.blog {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+.flex1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.flex2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+
+.flex3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex4 {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 10px;
+  align-items: flex-start;
+}
+
+.flex5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.flex6 {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  width: 100%;
+  background-color: #f9e42e;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex7 {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex8 {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  height: 200px;
+  width: 200px;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.about {
+  height: 150px;
+  width: 150px;
+}
+
+.faq {
+  height: 150px;
+  width: 150px;
+}
+
+.team {
+  height: 150px;
+  width: 150px;
+}
+
+.contact {
+  height: 150px;
+  width: 150px;
+}
+
+.blog {
+  height: 150px;
+  width: 150px;
+}
+
+.motto {
+  height: 100px;
+  width: 200px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.button {
+  height: 50px;
+  width: 100px;
+  color: blue;
+  background-color: #f9e42e;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.benefits {
+  height: 50px;
+  width: 200px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.description {
+  height: 50px;
+  width: 400px;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.list {
+  height: 50px;
+  width: 400px;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.quote {
+  height: 50px;
+  width: 250px;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.amanda {
+  height: 50px;
+  width: 100px;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.signup {
+  height: 50px;
+  width: 200px;
+  font-weight: 800;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.logo {
+  height: 50px;
+  width: 200px;
+  color: #f9e42e;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.twitter {
+  height: 50px;
+  width: 50px;
+}
+
+.facebook {
+  height: 50px;
+  width: 50px;
+}
+
+.copy {
+  height: 50px;
+  width: 200px;
+  font-weight: 600;
+  font-size: 9px;
+}
