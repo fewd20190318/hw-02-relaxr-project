@@ -10,13 +10,13 @@
 /* BASE STYLES
 /*******************************************/
 
+
 body.landing-page {
    color: #000;
    font-size: 12px;
    line-height: 1.4;
-   font-family: Helvetica, Arial, sans-serif;
-   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-   background-size: cover;
+   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+
 }
 
 body.blog {
@@ -37,7 +37,16 @@ body.blog {
   width: 100%;
   margin: auto;
   height: 500px;
+}
 
+.landing {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
 }
 
 .blog-container {
@@ -48,3 +57,41 @@ body.blog {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+h1 {
+  font-weight: 800;
+  font-size: 24px;
+  color: white;
+}
+
+.tagline {
+  font-weight: Semibold;
+  font-size: 24px;
+}
+
+button {
+  font-weight: bolder;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: yellow;
+}
+
+.testimonial {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+}
+
+.testimonial p {
+  color: white;
+  font-weight: ;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.attribution {
+  font-weight: semibold 18px;
+}
+
+ul {
+  Light, 13px
+}
