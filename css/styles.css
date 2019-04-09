@@ -17,6 +17,7 @@ body.landing-page {
    font-family: 'Open Sans', sans-serif;
    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
    background-size: cover;
+   margin: 0px;
 }
 
 body.blog {
@@ -112,7 +113,7 @@ body.blog {
 .flex7 {
   display: flex;
   flex-direction: column;
-  height: 200px;
+  height: 230px;
   width: 100%;
   background-color: black;
   color: white;
@@ -130,6 +131,7 @@ body.blog {
   align-items: center;
   position: relative;
   left: 10px;
+  top: 5px;
 }
 
 .main {
@@ -259,6 +261,8 @@ body.blog {
   font-weight: 800;
   font-size: 24px;
   text-align: center;
+  position: relative;
+  top: 20px;
 }
 
 .twitter {
@@ -277,4 +281,6 @@ body.blog {
   font-weight: 600;
   font-size: 9px;
   text-align: center;
+  position: relative;
+  bottom: 10px;
 }
