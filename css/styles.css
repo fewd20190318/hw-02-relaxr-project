@@ -26,6 +26,8 @@ body.blog {
   font-size: 12px;
   line-height: 1.4;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  width: 1024px;
+  margin: 0 auto;
 }
 
 
@@ -43,7 +45,9 @@ body.blog {
 }
 
 .blog-container {
-  width: 960px;
+  width: 1024px;
+  padding-left: 32px;
+  padding-right: 32px;
   margin: auto;
   background-color: #f0efef;
 }
@@ -51,9 +55,9 @@ body.blog {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-* {
+/* * {
   border: 1px dashed blue;
-}
+} */
 
 .header-container {
   display: flex;
@@ -198,26 +202,27 @@ h1 {
 
 /* Blog styles. */
 
-.blog-container .header-container {
+.blog .header-container {
   background-color: #033048;
   padding: 15px 40px;
 }
 
-.blog-container .nav-item a {
+.blog .nav-item a {
   color: #f9e42e;
   font-weight: 300;
 }
+/*  Blog spec asks for the nav to be 24px but looks way too big? Kept it the same as the homepage */
 
 .blog-container .main-container {
   display: flex;
   flex-direction: row;
-  padding: 50px 0px;
+  padding-top: 30px;
 }
 
 .article-container {
   width: 700px;
   margin-right: 10px;
-  margin-left: 40px;
+  margin-bottom: 50px;
 }
 
 .article h2 {
@@ -252,7 +257,7 @@ h1 {
 
 .article img {
   display: block;
-  max-width: 620px;
+  max-width: 100%;
 }
 
 .article {
@@ -260,19 +265,18 @@ h1 {
   border-bottom: 1px solid #121212;
 }
 
-/* Blog Sidebar styles. To spec looks off, fonts too big? */
+/* Blog Sidebar styles. */
 
 .sidebar {
   width: 240px;
   margin-left: 10px;
-  margin-right: 40px;
 }
 
 .sidebar h3 {
   color: #033048;
   font-size: 32px;
   font-weight: 800;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .categories a {
@@ -284,7 +288,7 @@ h1 {
 }
 
 .categories {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .about p {
@@ -293,7 +297,7 @@ h1 {
   margin-bottom: 0;
   margin-top: 0;
   color: #606161;
-  line-height: 1;
+  line-height: 1.1;
 }
 
 .about a {
@@ -304,10 +308,10 @@ h1 {
 }
 
 .about {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .advertisement img {
   display: block;
-  max-width: 240px;
+  max-width: 100%;
 }
