@@ -60,6 +60,15 @@ body.blog {
   color: white;
 }
 
+.logo a{
+  text-decoration: none;
+}
+
+.logo a:visited{
+  color: white;
+  text-decoration: none;
+}
+
 .nav-container {
   display: flex;
   justify-content: space-around;
@@ -188,7 +197,7 @@ body.blog {
 }
 
 .social-media {
-  width: 10%;
+  width: 12%;
   display: flex;
   justify-content: space-around;
 }
@@ -196,4 +205,88 @@ body.blog {
 .copyright {
   font-weight: 600;
   color: white;
+}
+
+.blog-header {
+  background-color: #033048;
+}
+
+.blog-nav-item {
+  color: #f9e42e;
+}
+
+.blog-content-container {
+  display: flex;
+  justify-content:space-between;
+  background-color:#f0efef;
+  padding-top: 20px;
+}
+
+.blog-content-container img {
+  width: 100%;
+}
+.blog-entries {
+  width: 700px;
+  padding-left: 20px;
+}
+
+.blog-sidebar {
+  width: 240px;
+  padding-right: 20px;
+}
+
+.blog-entries h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #033048;
+}
+
+.blog-entries p {
+  font-size: 24px;
+  font-weight: 300;
+  color: #606161;
+}
+
+.blog-entries p::first-letter {
+  font-size: 65px;
+  font-weight: 600;
+  color: #606161;
+  float: left;
+  line-height: 60px;
+  padding: 0px;
+  margin-left: -4.5px;
+  margin-right: 5px;
+  margin-top: -4px;
+}
+
+.blog-entries h4 a {
+  font-size: 24px;
+  font-weight: 600;
+  color: #033048;
+}
+
+.blog-entries h4{
+  text-align:right;
+}
+
+.blog-sidebar h3{
+  font-size: 32px;
+  font-weight: 800;
+  color:  #033048;
+}
+
+.blog-sidebar ul li {
+  font-size: 24px;
+  font-weight: 300;
+  color:  #033048;
+  list-style-type: none;
+}
+
+.blog-sidebar ul {
+  padding: 0;
+}
+
+.blog-sidebar p {
+  font-weight: 300;
+  color:  #606161;
 }
