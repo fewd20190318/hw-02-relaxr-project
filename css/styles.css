@@ -16,8 +16,8 @@ body.landing-page {
    line-height: 1.4;
    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
    /* background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-   background-size: cover; */
-   width: 960px;
+   background-size: contain; */
+   width: 1024px;
    margin: 0 auto;
 }
 
@@ -38,6 +38,8 @@ body.blog {
 .landing-page-container {
   width: 100%;
   margin: auto;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
 }
 
 .blog-container {
@@ -49,13 +51,15 @@ body.blog {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-.nav-container .logo {
-  margin-left: -200px;
+* {
+  border: 1px dashed blue;
 }
 
-.nav-container .nav {
-  margin-right: -180px;
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px 100px 40px;
+  width: 100%;
 }
 
 .nav-container {
@@ -63,7 +67,7 @@ body.blog {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 960px;
+  width: 40%;
 }
 
 .logo a {
@@ -73,18 +77,9 @@ body.blog {
   text-decoration: none;
 }
 
-.nav a {
+.nav-item a {
   color: white;
   text-decoration: none;
-  padding-left: 20px;
-}
-
-.landing-page-header {
-  padding-top: 20px;
-  padding-bottom: 280px;
-  width: 100%;
-  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-  background-size: cover;
 }
 
 h1 {
@@ -92,7 +87,6 @@ h1 {
   font-size: 24px;
   font-weight: 600;
   color: white;
-  margin-top: 60px;
   margin-bottom: 50px;
 }
 
@@ -115,6 +109,10 @@ h1 {
   font-size: 14px;
   font-weight: 800;
   text-decoration: none;
+}
+
+.banner {
+  padding-bottom: 200px;
 }
 
 .benefits {
@@ -172,6 +170,7 @@ h1 {
   background-color: #121212;
   padding: 50px 0 15px 0;
 }
+
 .footer .logo a {
   color: #f9e42e;
   text-decoration: none;
@@ -182,7 +181,7 @@ h1 {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding: 0 435px;
+  padding: 0 460px;
   margin-top: 25px;
 }
 
