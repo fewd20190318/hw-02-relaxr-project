@@ -76,7 +76,7 @@ body.blog {
 }
 
 .logo-top a {
-  font-size: 24px;
+  font-size: 48px;
   font-weight: 800;
   color: #cecece;
   text-decoration: none;
@@ -101,20 +101,20 @@ body.blog {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 48px;
   font-weight: 600;
   color: #cecece;
   text-align: center;
 }
 
 .top {
-  font-size: 14px;
+  font-size: 24px;
   color: #033048;
   background-color: #f9e42e;
   margin-top: 40px;
   margin-bottom: 180px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
 }
 
@@ -126,20 +126,20 @@ h2 {
 }
 
 .middle-container h2 {
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 600;
   color: #033048;
 }
 
 .middle-container p {
   font-weight: 300;
-  font-size: 13px;
+  font-size: 26px;
   color: #121212;
 }
 
 ul {
   font-weight: 300;
-  font-size: 13px;
+  font-size: 26px;
   color: #121212;
 }
 
@@ -149,7 +149,7 @@ ul {
 
 .quote {
   color: #cecece;
-  font-size: 18px;
+  font-size: 36px;
   font-style: italic;
   font-weight: 300;
   text-align: center;
@@ -158,7 +158,7 @@ ul {
 
 .name {
   color: #cecece;
-  font-size: 18px;
+  font-size: 36px;
   font-weight: 800;
   text-align: center;
 }
@@ -174,14 +174,14 @@ ul {
 .button {
   font-weight: 800;
   text-align: center;
-  width: 150px;
+  width: 200px;
   height: 35px;
   border-radius: 5px;
-  padding: 8px;
+  /* padding: 8px; */
 }
 
 .bottom {
-  font-size: 12px;
+  font-size: 24px;
   background-color: #033048;
   color: #cecece;
 }
@@ -196,7 +196,7 @@ ul {
 }
 
 .logo-footer a{
-  font-size: 24px;
+  font-size: 48px;
   font-weight: bold;
   color: #f9e42e;
   text-decoration: none;
@@ -324,4 +324,10 @@ hr {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 40px;
+}
+
+
+.header-button.button.top{
+  position: relative;
+    left: 40%;
 }
