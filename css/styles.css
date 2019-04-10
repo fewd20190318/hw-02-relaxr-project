@@ -30,6 +30,11 @@ body.blog {
   font-family: "Open Sans",Helvetica, Arial, sans-serif;
 }
 
+.landing-page-container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
 .topnav{
   display: flex;
   justify-content: space-between;
@@ -64,13 +69,13 @@ a:active {
   display: flex;
   justify-content: center;
   color: white;
-  font-weight: semibold;
+  font-weight: 700;
   font-size: 24px;
   height: 150px;
 }
 
 .benefits h1{
-  font-weight: semibold;
+  font-weight: 700px;
   font-size: 20px;
 }
 
@@ -82,11 +87,11 @@ a:active {
   height: 50px;
   width: 20%;
   color: #033048;
-  /*font-weight: Extrabold;
+  font-weight: 800px;
   border-radius: 5px;
-  font-size: 12px
+  font-size: 14px
   padding: 100px;
-  width: 175px;*/
+  width: 175px;
 }
 
 .signupnow{
@@ -99,9 +104,9 @@ a:active {
 .signupnowinner{
   background-color: #033048;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 12px;
   padding: 10px;
-  font-weight: extrabold;
+  font-weight: 800;
   margin-top: 20px;
   margin-bottom: 20px;
   color: white;
@@ -120,7 +125,7 @@ a:active {
   height: 300px;
   width: 100%;
   font-size: 13px;
-  font-weight: light;
+  font-weight: 400;
 }
 
 .quote{
@@ -130,13 +135,16 @@ a:active {
   font-style: italic;
   color: white;
   padding: 100px;
+  margin: 50px;
+  font-size: 18px;
+  font-weight: 400x;
 
 }
 
 .navlogo{
   font-size: 24px;
-  font-style: Extrabold;
   color: white;
+  font-weight: 800;
 }
 
 .pagenav{
@@ -151,7 +159,7 @@ a:active {
   display: flex;
   justify-content: center;
   padding-top: 50px;
-  font-weight: extrabold;
+  font-weight: 800;
   font-size: 24px;
   color: #f9e42e;
 }
@@ -169,11 +177,11 @@ a:active {
 }
 
 .footer{
-  display: flex;
-  justify-content: center;
   color: white;
   font-size: 9px;
-  font-weight: semibold;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
 }
 
 .footerbackground{
@@ -217,9 +225,13 @@ hr{
 }
 
 .blog-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
   width: 960px;
   margin: auto;
 }
+
 
 .navlogo{
   padding-bottom: 300px;
@@ -245,7 +257,7 @@ hr{
 
 h4.blogarticlecontainer{
   font-size: 24px;
-  font-weight: semibold;
+  font-weight: 700;
 
 }
 
@@ -258,10 +270,18 @@ h4.blogarticlecontainer{
 .blogfooter{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-
+.signature-container{
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  padding-top: 0;
+}
 
 
 /******************************************
