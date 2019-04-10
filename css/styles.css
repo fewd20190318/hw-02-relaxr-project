@@ -14,7 +14,7 @@ body.landing-page {
    color: #000;
    font-size: 12px;
    line-height: 1.4;
-   font-family: Helvetica, Arial, sans-serif;
+   font-family: 'Open Sans',Helvetica, sans-serif;
    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
    background-size: cover;
 }
@@ -23,7 +23,7 @@ body.blog {
   color: #000;
   font-size: 12px;
   line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans',Helvetica, sans-serif;
 }
 
 
@@ -37,7 +37,6 @@ body.blog {
   width: 100%;
   margin: auto;
   height: 500px;
-
 }
 
 .blog-container {
@@ -48,3 +47,153 @@ body.blog {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+.header-container {
+  height: 75px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 800;
+  color: white;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-item {
+  color: white;
+  font-weight: 300;
+  font-size: 17px;
+  text-decoration: none;
+  margin-left: 22px;
+}
+
+.get-now-container {
+  height: 250px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.get-now-container div {
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 45px;
+}
+
+.get-now-link {
+  font-weight: 800;
+  font-size: 14px;
+  color: #033048;
+  background: #f9e42e;
+  background-size: contain;
+  text-decoration: none;
+  padding: 8px 37px 8px 37px;
+  border-radius: 5px;
+}
+
+.benefits-container {
+  width: 100%;
+  background-color: white;
+  margin: auto;
+  height: 350px;
+  padding-left:270px ;
+  padding-top: 80px;
+}
+
+.benefits-container h2 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #033048;
+  margin: auto;
+}
+
+.benefits-container p {
+  font-weight: 300;
+  font-size: 13px;
+  width: 32%;
+  font-style: italic;
+}
+
+.benefits-container ul {
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.testimonial-container{
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 220px;
+}
+
+.quote {
+  width: 26%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+  font-style: italic;
+  color: white;
+  margin:0px;
+  padding-top: 40px;
+}
+.quote-name {
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  margin: 0px;
+}
+
+.sign-up {
+  background: #f9e42e;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-link {
+  font-weight:800;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 8px 40px 8px 40px;
+  background-color:  #033048;
+  color: white;
+  border-radius: 5px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #121212;
+  height: 250px;
+}
+
+.logo-footer {
+  color: #f9e42e;
+}
+
+.social-media {
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.copyright {
+  font-weight: 600;
+  color: white;
+}
