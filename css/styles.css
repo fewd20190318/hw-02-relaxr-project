@@ -1,5 +1,5 @@
-*{
-   border:1px dashed red;
+/* *{
+   border:1px dashed red; */
 }
 /* Box Model Hack */
 * {
@@ -58,7 +58,9 @@ body.blog {
   height: 70px;
 }
 
-.menu{
+
+
+.menu-container{
   display: flex;
   justify-content: flex-end;
   width:85%;
@@ -66,8 +68,15 @@ body.blog {
   align-items:center;
 }
 
-.benefits{
+.menu-nav{
+  margin-left: 7px;
+}
+
+.benefits-container{
   background-color: #f0efef;
+}
+.benefits{
+  margin-left: 50px;
 }
 
 .headline{
@@ -89,7 +98,6 @@ body.blog {
   font-size: 14px;
   font-weight: bold;
   padding: 6px;
-  width: 100px;
   border-radius: 10%;
 }
 
@@ -104,4 +112,53 @@ body.blog {
   justify-content: center;
   font-size: 24px;
   font-weight: 600;
+}
+
+.quote-container {
+  background: url(../images/testimonial_bg.jpg) no-repeat top rgb(134,141,157);
+  height: 100px;
+  width: 100%;
+}
+.quote{
+  color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.bottom-button{
+  background-color: #f9e42e;
+  display: flex;
+  justify-content: center;
+}
+
+.sign{
+  color: white;
+  background-color: #033048;
+  border:5px border radius;
+  width: 90px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer{
+  background-color: #121212;
+}
+
+.logo-footer{
+  color: #f9e42e;
+  font-weight: 800;
+  font-style: bold;
+}
+
+.copyright{
+  color: white;
+}
+
+.footer p{
+  display: flex;
+  justify-content: center;
 }
