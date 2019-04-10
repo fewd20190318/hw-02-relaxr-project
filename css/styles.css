@@ -40,7 +40,6 @@ body.blog {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .blog-container {
@@ -71,6 +70,7 @@ body.blog {
   margin-left: 40px;
   font-weight: 800;
   font-size: 24px;
+  color: white;
 }
 
 .links-container {
@@ -132,6 +132,13 @@ a:link {
 .benefits p {
   font-style: 300:italic;
   font-size: 13px;
+  color: #606161;
+}
+
+.benefits ul {
+  font-style: 300:italic;
+  font-size: 13px;
+  color: #606161;
 }
 
 .three {
@@ -218,6 +225,40 @@ a:link {
   margin-top: 35px;
 }
 
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f0efef;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #033048;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 50%;
+  margin-right: 40px;
+}
+
+.logoblog {
+  color: white;
+  display: flex;
+  align-self: flex-start;
+  width: 30%;
+  margin-left: 40px;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.a:link logoblog {
+  color: #f9e42e;
+}
 
 
 
