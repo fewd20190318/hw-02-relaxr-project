@@ -23,7 +23,8 @@ body.blog {
   color: #000;
   font-size: 12px;
   line-height: 1.4;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif; Arial, Helvetica;
+  background-size: cover;
 }
 
 
@@ -85,11 +86,6 @@ body.blog {
   display: flex;
   justify-content: flex-end;
   margin-left: auto;
-}
-
-a:link {
-  text-decoration: none;
-  color: white;
 }
 
 .motto {
@@ -193,8 +189,10 @@ a:link {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 0px;
   color: white;
+  width: 100%;
+  background: #121212;
 }
 
 .social-media {
@@ -229,12 +227,20 @@ a:link {
   display: flex;
   flex-direction: column;
   background-color: #f0efef;
+  width: 1000px;
+}
+
+.blog-body {
+  display: flex;
+  flex-direction: row;
 }
 
 .nav-container {
   display: flex;
   flex-direction: row;
+  height: 60px;
   width: 100%;
+  padding-top: 10px;
   background-color: #033048;
 }
 
@@ -244,9 +250,13 @@ a:link {
   justify-content: flex-end;
   width: 50%;
   margin-right: 40px;
+  padding-top: 10px;
 }
 
 .logoblog {
+  width: 50%;
+}
+.logoblog a {
   color: white;
   display: flex;
   align-self: flex-start;
@@ -256,9 +266,127 @@ a:link {
   font-size: 24px;
 }
 
-.a:link logoblog {
-  color: #f9e42e;
+.link a {
+  color: white;
 }
+
+.blog-container .link-container .link a {
+  text-decoration: none;
+  color: #f9e42e;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.story-container {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin-right: 20px;
+  margin-left: 40px;
+}
+
+h1 {
+  font-weight: 600px;
+  font-size: 40px;
+  color: #033048;
+}
+
+p {
+  font-weight: 300px;
+  font-size: 24px;
+  color: #606161;
+}
+
+.read {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 600;
+  font-size: 24px;
+  color: #033048;
+}
+
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 32px;
+  color: #033048;
+  margin-bottom: 3px;
+}
+
+.categories {
+  height: 20px;
+  width: 190px;
+}
+
+.about {
+  height: 210px;
+  width: 190px;
+}
+
+p.categories {
+  font-weight: 300px;
+  font-size: 24px;
+  color: #606161;
+}
+
+p.about {
+  font-weight: 300px;
+  font-size: 22px;
+  padding-bottom: 0px;
+}
+
+p.learn {
+  font-weight: 600;
+  font-size: 22px;
+  color: #033048;
+  padding-top: 0px;
+}
+
+.ad-container {
+  background: white;
+  height: 340px;
+  width: 190px;
+  font-weight: 500;
+  font-size: 30px;
+  padding-top: 10px;
+  color: #033048;
+  padding-left: 45px;
+}
+
+.blog-signup {
+  height: 30px;
+  width: 150px;
+  background-color: #033048;
+  color: white;
+  padding-left: 30px;
+  padding-top: 7px;
+  margin-top: 15px;
+  font-weight: 800;
+  font-size: 12px;
+  border-radius: 5%;
+}
+
+.blog-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  padding-top: 20px;
+  color: white;
+  width: 100%;
+  background: #121212;
+}
+
+a {
+  text-decoration: none;
+}
+
 
 
 
