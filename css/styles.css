@@ -126,7 +126,8 @@ ul {
 }
 
 .testimonial {
-  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background: url("../images/testimonial_bg.jpg") no-repeat center top rgb(134,141,157);
+  background-size: 100%;
   color: white;
   font-style: italic;
   font-size: 24px;
