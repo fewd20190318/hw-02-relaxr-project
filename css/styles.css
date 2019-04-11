@@ -41,6 +41,15 @@ body.blog {
   height: 125px;
 }
 
+.topnav-blog-container{
+  display: flex;
+  justify-content: space-between;
+  height: 125px;
+  background-color: #033048;
+
+}
+
+
 /* unvisited link */
 a:link {
   color: #606161;
@@ -239,6 +248,7 @@ hr{
   align-content: center;
   width: 960px;
   margin: auto;
+  background-color: #f0efef
 }
 
 
@@ -270,14 +280,6 @@ h4.blogarticlecontainer{
 .readmore{
   display: flex;
   justify-content: flex-end;
-}
-
-
-.blogfooter{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .signature-container{
