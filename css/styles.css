@@ -229,6 +229,11 @@ ul {
   font-weight: bold;
 }
 
+.header-button.button.top{
+  position: relative;
+    left: 40%;
+}
+
 /******************************************
 /* BLOG PAGE
 /*******************************************/
@@ -262,12 +267,12 @@ ul {
   justify-content: flex-start;
 }
 
-.column {
+.article {
   width: 700px;
   margin-right: 20px;
 }
 
-.column p {
+.article p {
   font-size: 24px;
   font-weight: 300;
 }
@@ -324,10 +329,4 @@ hr {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 40px;
-}
-
-
-.header-button.button.top{
-  position: relative;
-    left: 40%;
 }
