@@ -14,16 +14,21 @@ body.landing-page {
    color: #000;
    font-size: 12px;
    line-height: 1.4;
-   font-family: Helvetica, Arial, sans-serif;
-   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-   background-size: cover;
+   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+   /* background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+   background-size: contain; */
+   /* width: 1024px; */
+   margin: 0 auto;
 }
 
 body.blog {
   color: #000;
   font-size: 12px;
   line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  /* width: 1024px; */
+  margin: 0 auto;
+  background-color: #f0efef;
 }
 
 
@@ -36,15 +41,283 @@ body.blog {
 .landing-page-container {
   width: 100%;
   margin: auto;
-  height: 500px;
-
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
 }
 
 .blog-container {
   width: 960px;
-  margin: auto;
+  /* padding-left: 32px;
+  padding-right: 32px; */
+  margin: 0 auto;
+  background-color: #f0efef;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+/* * {
+  border: 1px dashed blue;
+} */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px 100px 40px;
+  width: 100%;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+
+.logo a {
+  color: white;
+  font-size: 48px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 75px;
+}
+
+.button {
+  text-align: center;
+  padding: 5px 0;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 250px;
+  margin: auto;
+}
+
+.yellow {
+  background-color: #f9e42e;
+}
+
+.yellow a {
+  color:#033048;
+  font-size: 24px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.banner {
+  padding-bottom: 250px;
+}
+
+.benefits {
+  color:  #121212;
+  font-weight: 300;
+  font-size: 26px;
+  background-color: #f0efef;
+  padding: 25px 350px 25px 125px;
+}
+
+.benefits h2 {
+  color: #033048;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.quoteblock {
+  color: white;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 36px;
+  text-align: center;
+  padding: 30px 200px;
+  line-height: 1.5;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top;
+  background-size: cover;
+}
+
+  /*  Not sure how to justify and center quote text*/
+
+.quote-name {
+  font-weight: 600;
+  font-style: normal;
+}
+
+.calltoaction {
+  background-color: #f9e42e;
+  padding: 30px 0;
+}
+
+.blue {
+  background-color: #033048;
+}
+
+.blue a {
+  font-size: 24px;
+  font-weight: 800;
+  color: white;
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #121212;
+  padding: 50px 0 15px 0;
+  height: 300px;
+}
+
+.footer .logo a {
+  color: #f9e42e;
+  text-decoration: none;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 25px;
+  width: 15%;
+}
+
+.social-media img {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.copyright {
+  font-size: 9px;
+  font-weight: 600;
+  margin-top: 40px;
+}
+
+/* Blog styles. */
+
+.blog .header-container {
+  background-color: #033048;
+  padding: 15px 40px;
+}
+
+.blog .nav-item a {
+  color: #f9e42e;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.blog-container .main-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+}
+
+.article-container {
+  width: 700px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+.article h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #033048;
+}
+
+.article p {
+  font-size: 24px;
+  font-weight: 300;
+  color: #606161;
+}
+
+.article p::first-letter {
+  color: #606161;
+  font-size: 300%;
+  font-weight: 600;
+  float: left;
+  margin-top: -10px;
+  padding-right: 10px;
+}
+
+.article a {
+  display: block;
+  text-align: right;
+  color: #033048;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.article img {
+  display: block;
+  max-width: 100%;
+}
+
+.article {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #121212;
+}
+
+/* Blog Sidebar styles. */
+
+.sidebar {
+  width: 240px;
+  margin-left: 10px;
+}
+
+.sidebar h3 {
+  color: #033048;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.categories a {
+  display: block;
+  color: #033048;
+  text-decoration: none;
+  line-height: 1.6;
+  font-size: 24px;
+}
+
+.categories {
+  margin-bottom: 30px;
+}
+
+.about p {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #606161;
+  line-height: 1.1;
+}
+
+.about a {
+  color: #033048;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.about {
+  margin-bottom: 30px;
+}
+
+.advertisement img {
+  display: block;
+  max-width: 100%;
+}
