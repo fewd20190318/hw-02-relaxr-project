@@ -17,7 +17,7 @@ body.landing-page {
    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
    /* background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
    background-size: contain; */
-   width: 1024px;
+   /* width: 1024px; */
    margin: 0 auto;
 }
 
@@ -26,8 +26,9 @@ body.blog {
   font-size: 12px;
   line-height: 1.4;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  width: 1024px;
+  /* width: 1024px; */
   margin: 0 auto;
+  background-color: #f0efef;
 }
 
 
@@ -45,10 +46,10 @@ body.blog {
 }
 
 .blog-container {
-  width: 1024px;
-  padding-left: 32px;
-  padding-right: 32px;
-  margin: auto;
+  width: 960px;
+  /* padding-left: 32px;
+  padding-right: 32px; */
+  margin: 0 auto;
   background-color: #f0efef;
 }
 
@@ -145,6 +146,7 @@ h1 {
   background: url(../images/testimonial_bg.jpg) no-repeat center top;
   background-size: cover;
 }
+
   /*  Not sure how to justify and center quote text*/
 
 .quote-name {
@@ -169,10 +171,14 @@ h1 {
 }
 
 .footer {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: white;
   background-color: #121212;
   padding: 50px 0 15px 0;
+  height: 300px;
 }
 
 .footer .logo a {
@@ -185,8 +191,8 @@ h1 {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding: 0 450px;
   margin-top: 25px;
+  width: 15%;
 }
 
 .social-media img {
@@ -210,8 +216,8 @@ h1 {
 .blog .nav-item a {
   color: #f9e42e;
   font-weight: 300;
+  font-size: 24px;
 }
-/*  Blog spec asks for the nav to be 24px but looks way too big? Kept it the same as the homepage */
 
 .blog-container .main-container {
   display: flex;
