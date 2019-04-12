@@ -9,6 +9,7 @@
 }
 
 
+
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -18,7 +19,7 @@ body.landing-page {
    font-size: 12px;
    line-height: 1.4;
    font-family: 'Open Sans', sans-serif;
-   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+   /* background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157); */
    background-size: cover;
 }
 
@@ -38,9 +39,9 @@ body.blog {
 
 .landing-page-container {
   width: 100%;
-  margin: auto;
+  margin: 0 auto;
   height: 500px;
-
+   rgb(134,141,157);
 }
 
 .blog-container {
@@ -58,7 +59,12 @@ body.blog {
   height: 70px;
 }
 
-
+.top-background{
+  background-image:url(../images/header_bg.jpg);
+  background-position: center top;
+  height: 100%;
+  margin-bottom: -53px;
+}
 
 .menu-container{
   display: flex;
@@ -74,13 +80,15 @@ body.blog {
 
 .benefits-container{
   background-color: #f0efef;
+  margin-bottom: -34px;
 }
 .benefits{
   margin-left: 50px;
+
 }
 
 .headline{
-  font-size: 24px;
+  font-size: 48px;
   width: 15%;
   font-weight:800;
   margin: auto;
@@ -89,35 +97,38 @@ body.blog {
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-bottom: -12px;
 }
 
 .button{
   border: 5px solid #f9e42e;
   background-color: #f9e42e;
   color: #121212;
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 48px;
+  font-weight: 800;
   padding: 6px;
   border-radius: 10%;
 }
 
 .benefits h4 {
   color: blue;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 40px;
 }
 
 .text{
   color: white;
   display: flex;
   justify-content: center;
-  font-size: 24px;
+  font-size: 48px;
   font-weight: 600;
 }
 
 .quote-container {
-  background: url(../images/testimonial_bg.jpg) no-repeat top rgb(134,141,157);
-  height: 100px;
+  background: url(../images/testimonial_bg.jpg) no-repeat top;
+  background-size: cover;
   width: 100%;
+  margin-bottom: -35px;
 }
 .quote{
   color: white;
@@ -125,33 +136,38 @@ body.blog {
   margin-right: 50px;
   text-align: center;
   padding: 20px;
-  font-size: 18px;
+  font-size: 36px;
+  font-style: italic;
 }
 
 .bottom-button{
   background-color: #f9e42e;
   display: flex;
   justify-content: center;
+  margin-bottom: -12px;
 }
 
 .sign{
   color: white;
   background-color: #033048;
   border:5px border radius;
-  width: 90px;
-  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 24px;
+  font-weight: 800;
+  padding: 10px;
 }
 .footer{
   background-color: #121212;
+  margin-top: -48px;
 }
 
 .logo-footer{
   color: #f9e42e;
   font-weight: 800;
   font-style: bold;
+  font-size: 48px;
 }
 
 .copyright{
@@ -161,4 +177,14 @@ body.blog {
 .footer p{
   display: flex;
   justify-content: center;
+}
+.list{
+  font-weight: 300;
+  font-size: 26px;
+}
+
+.images{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
 }
