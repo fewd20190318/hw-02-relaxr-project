@@ -31,6 +31,169 @@ body.blog {
 }
 
 
+
+.pagenav {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.returnhomelogo{
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.logo{
+  font-size: 100px;
+  font-weight: 800;
+
+}
+
+.getitbutton {
+  font-size: 24px;
+  background-color: yellow;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+
+}
+/* BLOG PAGE */
+
+
+.topnav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topcta-container {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.quotation p{
+  display: flex;
+  flex-wrap: wrap;
+  font-style: italic;
+}
+
+.quotation {
+  display: flex;
+}
+
+
+/*
+.pagenav{
+  display: flex;
+  justify-content: stretch;
+}
+
+
+
+.topcta-container{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+*/
+.benefits-container{
+  background-color: #f0efef;
+  background-size: cover;
+  padding: 50px;
+}
+
+.quotation{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  width: 250px;
+  margin-left: 670px;
+
+  /*flex-items: center;*/
+}
+
+.signupnow-container{
+  background-color: #f9e42e;
+  /*padding-top: 9px;
+  margin: 0px;*/
+}
+
+.signupnow-container p{
+  width: 150px;
+  height: 60px;
+  padding: 10px;
+  background-color: #033048;
+  display: flex;
+  justify-content: center;
+  margin-left: 45%;
+}
+
+
+
+
+
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+/* unvisited link */
+a:link {
+  color: #606161;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #606161;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #606161;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #606161;
+  text-decoration: none;
+}
+
+
+/*FOOTER*/
+.footer-container{
+  background-color: black;
+}
+
+.footer-container h1{
+  font-weight: 800;
+  font-size: 36px;
+  color: yellow;
+  display: flex;
+  justify-content: center;
+}
+
+.socialfooter img{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.socialfooter{
+  display: flex;
+  justify-content: center;
+}
+
+
+.copyright{
+  color: white;
+  font-size: 9px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
