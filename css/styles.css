@@ -58,6 +58,21 @@ body.blog {
 }
 /* BLOG PAGE */
 
+.blogcontent-container{
+  display: flex;
+}
+
+.blogarticle-container p::first-letter {
+  color: #606161;
+  font-size: 48px;
+}
+
+
+
+.blognav-container{
+  display: flex;
+  justify-content: space-between;
+}
 
 .topnav-container {
   display: flex;
@@ -82,13 +97,17 @@ body.blog {
   display: flex;
 }
 
-
-/*
-.pagenav{
+.image1{
   display: flex;
-  justify-content: stretch;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.image2{
+  display: flex;
+  justify-content: center;
+}
 
 
 .topcta-container{
