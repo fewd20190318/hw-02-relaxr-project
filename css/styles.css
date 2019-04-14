@@ -17,6 +17,7 @@ body.landing-page {
    font-family: 'Open Sans',Helvetica, sans-serif;
    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
    background-size: cover;
+   margin: auto;
 }
 
 body.blog {
@@ -48,10 +49,11 @@ body.blog {
 /* ADDITIONAL STYLES
 /*******************************************/
 .header-container {
-  height: 75px;
   display: flex;
   justify-content:space-around;
   align-items: center;
+  padding-top: 37px;
+  padding-bottom: 37px;
 }
 
 .logo {
@@ -83,106 +85,6 @@ body.blog {
   margin-left: 22px;
 }
 
-.get-now-container {
-  height: 450px;
-  margin-bottom: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.get-now-container div {
-  color: white;
-  font-weight: 600;
-  font-size: 48px;
-  margin-bottom: 45px;
-}
-
-.get-now-link {
-  font-weight: 800;
-  font-size: 24px;
-  color: #033048;
-  background: #f9e42e;
-  background-size: contain;
-  text-decoration: none;
-  padding: 8px 37px 8px 37px;
-  border-radius: 5px;
-}
-
-.benefits-container {
-  width: 100%;
-  background-color: white;
-  margin: 0px;
-  height: 550px;
-  padding-left:270px ;
-  padding-top: 90px;
-}
-
-.benefits-container h2 {
-  font-weight: 600;
-  font-size: 40px;
-  color: #033048;
-  margin: auto;
-}
-
-.benefits-container p {
-  font-weight: 300;
-  font-size: 26px;
-  width: 32%;
-  font-style: italic;
-}
-
-.benefits-container ul {
-  font-weight: 300;
-  font-size: 26px;
-}
-
-.testimonial-container{
-  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* height: 220px; */
-}
-
-.quote {
-  width: 26%;
-  text-align: center;
-  font-weight: 300;
-  font-size: 18px;
-  font-style: italic;
-  color: white;
-  margin:0px;
-  padding-top: 40px;
-}
-.quote-name {
-  font-weight: 600;
-  font-size: 18px;
-  color: white;
-  margin: 0px;
-}
-
-.sign-up {
-  background: #f9e42e;
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.sign-up-link {
-  font-weight:800;
-  font-size: 20px;
-  text-decoration: none;
-  padding: 8px 60px 8px 60px;
-  background-color:  #033048;
-  color: white;
-  border-radius: 5px;
-}
-
 .footer {
   display: flex;
   flex-direction: column;
@@ -209,13 +111,115 @@ body.blog {
   color: white;
 }
 
+/* LANDING PAGE STYLES */
+.get-now-container {
+  padding: 120px 0px 255px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.get-now-container div {
+  color: white;
+  font-weight: 600;
+  font-size: 48px;
+  margin-bottom: 75px;
+}
+
+.get-now-link {
+  font-weight: 800;
+  font-size: 24px;
+  color: #033048;
+  background: #f9e42e;
+  background-size: contain;
+  text-decoration: none;
+  padding: 8px 37px 8px 37px;
+  border-radius: 5px;
+}
+
+.benefits-container {
+  background-color: white;
+  margin: auto;
+  padding: 70px 232px;
+}
+
+.benefits-container h2 {
+  font-weight: 600;
+  font-size: 40px;
+  color: #033048;
+}
+
+.benefits-container p {
+  font-weight: 300;
+  font-size: 26px;
+  font-style: italic;
+  padding-right: 445px;
+}
+
+.benefits-container ul {
+  font-weight: 300;
+  font-size: 26px;
+}
+
+.testimonial-container{
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 420px 50px 420px;
+  /* height: 220px; */
+}
+
+.quote {
+  text-align: center;
+  font-weight: 300;
+  font-size: 36px;
+  font-style: italic;
+  color: white;
+  margin:0px;
+  padding-top: 40px;
+}
+.quote-name {
+  font-weight: 600;
+  font-size: 36px;
+  color: white;
+  margin: 0px;
+}
+
+.sign-up {
+  background: #f9e42e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+
+.sign-up-link {
+  font-weight:800;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 8px 60px 8px 60px;
+  background-color:  #033048;
+  color: white;
+  border-radius: 5px;
+}
+
+.landing-page .footer .social-media{
+  margin-bottom: 60px;
+}
+
+/* BLOG PAGE STYLES */
 .blog-header {
   background-color: #033048;
   justify-content: space-between;
   padding-left: 120px;
   padding-right: 120px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .blog-nav-item {
@@ -268,7 +272,7 @@ body.blog {
   font-weight: 600;
   color: #606161;
   float: left;
-  line-height: 60px;
+  line-height: 75px;
   padding: 0px;
   margin-left: -4.5px;
   margin-right: 5px;
