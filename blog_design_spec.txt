@@ -1,4 +1,4 @@
-Relaxr Blog Design Specs
+Relaxr Blog Design Specsz
 
 background color: #f0efef
 yellow: #f9e42e
