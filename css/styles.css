@@ -23,6 +23,8 @@ body.landing-page {
    background-size: cover;
 }
 
+
+/***************BLOG**************/
 body.blog {
   color: #000;
   font-size: 12px;
@@ -32,160 +34,90 @@ body.blog {
 
 
 
-.pagenav {
+.topnav-landingpage-container a{
   font-weight: 500;
   font-size: 20px;
+  color: #606161;
+  padding-right: 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
 }
 
-.returnhomelogo{
+.topnav-landingpage-container{
+  display: flex;
+  flex-wrap: no-wrap;
+  flex-direction: row;
+}
+
+
+
+
+.footer-container p{
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  margin: 0px;
+}
+
+.footer-container h1{
+  display: flex;
+  justify-content: center;
+  color: #f9e42e;
+  background-color: black;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  margin: 0px;
+}
+
+.socialfooter {
+  display: flex;
+  justify-content: center;
+}
+
+
+.socialfooter {
+  background-color: black;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+.socialfooter img{
+  padding-left: 25x;
+  padding-right: 25px;
+}
+
+
+.returnhomelogo a{
   font-weight: 800;
   font-size: 30px;
-}
-
-.logo{
-  font-size: 100px;
-  font-weight: 800;
-
-}
-
-.getitbutton {
-  font-size: 24px;
-  background-color: yellow;
-  width: 10%;
-  display: flex;
-  justify-content: center;
-
-}
-/* BLOG PAGE */
-
-.blogcontent-container{
-  display: flex;
-}
-
-.blogarticle-container p::first-letter {
-  color: #606161;
-  font-size: 48px;
-}
-
-
-
-.blognav-container{
-  display: flex;
-  justify-content: space-between;
-}
-
-.topnav-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.topcta-container {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-.quotation p{
-  display: flex;
-  flex-wrap: wrap;
-  font-style: italic;
-}
-
-.quotation {
-  display: flex;
-}
-
-.image1{
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.image2{
-  display: flex;
-  justify-content: center;
-}
-
-
-.topcta-container{
-  display: flex;
-  flex-wrap: wrap;
-
-}
-*/
-.benefits-container{
-  background-color: #f0efef;
-  background-size: cover;
-  padding: 50px;
-}
-
-.quotation{
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  align-items: center;
-  width: 250px;
-  margin-left: 670px;
-
-  /*flex-items: center;*/
-}
-
-.signupnow-container{
-  background-color: #f9e42e;
-  /*padding-top: 9px;
-  margin: 0px;*/
-}
-
-.signupnow-container p{
-  width: 150px;
-  height: 60px;
-  padding: 10px;
-  background-color: #033048;
-  display: flex;
-  justify-content: center;
-  margin-left: 45%;
-}
-
-
-
-
-
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
-
-/* unvisited link */
-a:link {
-  color: #606161;
-  text-decoration: none;
+  color: white;
 }
 
 /* visited link */
-a:visited {
-  color: #606161;
+.returnhomelogo a:visited {
+  color: white;
   text-decoration: none;
 }
 
 /* mouse over link */
-a:hover {
-  color: #606161;
-  text-decoration: none;
-}
-
-/* selected link */
-a:active {
-  color: #606161;
+.returnhomelogo a:hover {
+  color: white;
   text-decoration: none;
 }
 
 
-/*FOOTER*/
-.footer-container{
-  background-color: black;
+.returnhomelogo a:active {
+  color: white;
+  text-decoration: none;
+}
+
+
+.returnhomelogo a{
+  font-weight: 800;
+  font-size: 30px;
+  color: white;
 }
 
 .footer-container h1{
@@ -194,25 +126,29 @@ a:active {
   color: yellow;
   display: flex;
   justify-content: center;
+  justify-content: space-around;
 }
 
-.socialfooter img{
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 100px;
   padding-bottom: 100px;
-}
-
-.socialfooter{
-  display: flex;
-  justify-content: center;
-}
 
 
-.copyright{
+
+
+
+/* BLOG***************************************/
+
+.signupnow-container p{
+  background-color: #033048;
   color: white;
-  font-size: 9px;
-  font-weight: 700;
+  padding: 20px;
+  margin: 0px;
+}
+
+.signupnow-container {
   display: flex;
   justify-content: center;
+  background-color: #f9e42e;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
 }
