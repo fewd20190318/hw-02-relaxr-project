@@ -14,7 +14,7 @@ body.landing-page {
    color: #000;
    font-size: 12px;
    line-height: 1.4;
-   font-family: Helvetica, Arial, sans-serif;
+   font-family: 'Open Sans', sans-serif; Arial, Helvetica;
    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
    background-size: cover;
 }
@@ -23,7 +23,8 @@ body.blog {
   color: #000;
   font-size: 12px;
   line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif; Arial, Helvetica;
+  background-size: cover;
 }
 
 
@@ -34,16 +35,381 @@ body.blog {
 /* Center the container */
 
 .landing-page-container {
+  display: flex;
   width: 100%;
   margin: auto;
-  height: 500px;
-
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .blog-container {
   width: 960px;
   margin: auto;
 }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 220px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-self: flex-start;
+  width: 30%;
+  margin-left: 40px;
+  font-weight: 800;
+  font-size: 24px;
+  color: white;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 50%;
+  margin-right: 40px;
+}
+
+.link {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.motto {
+  display: flex;
+  justify-content: center;
+  color: white;
+  width: 100%;
+  margin-top: 40px;
+  font-style: 600;
+  font-size: 24px;
+}
+
+.button {
+  width: 10%;
+  height: 24px;
+  background-color: yellow;
+  margin-left: 45%;
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 2px;
+  color: black;
+  border-radius: 5%;
+  font-style: 800;
+  font-size: 14px;
+}
+
+.benefits {
+  height: 220px;
+  width: 100%;
+  background-color: white;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+.benefits h1 {
+  font-style: 600;
+  font-size: 20px;
+}
+
+.benefits p {
+  font-style: 300:italic;
+  font-size: 13px;
+  color: #606161;
+}
+
+.benefits ul {
+  font-style: 300:italic;
+  font-size: 13px;
+  color: #606161;
+}
+
+.three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 190px;
+  width: 100%;
+  color: white;
+  background: url(../images/testimonial_bg.jpg)
+}
+
+.quote {
+  width: 20%;
+  height: 75%;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.amanda {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.offer{
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  width: 100%;
+  background: yellow;
+}
+
+.signup {
+  height: 30px;
+  width: 10%;
+  background-color: #033048;
+  color: white;
+  padding-left: 20px;
+  padding-top: 7px;
+  margin-top: 15px;
+  font-weight: 800;
+  font-size: 12px;
+  border-radius: 5%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  color: white;
+  width: 100%;
+  background: #121212;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.facebook
+{
+  margin-left: 12px;
+}
+
+.twitter {
+  margin-right: 12px;
+}
+
+.relaxr {
+  font-weight: 800;
+  font-size: 24px;
+  color: #f9e42e;
+  margin-bottom: 40px;
+}
+
+.copyright {
+  font-weight: 600;
+  font-size: 9px;
+  margin-top: 35px;
+}
+
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f0efef;
+  width: 1000px;
+}
+
+.blog-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  width: 100%;
+  padding-top: 10px;
+  background-color: #033048;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 50%;
+  margin-right: 40px;
+  padding-top: 10px;
+}
+
+.logoblog {
+  width: 50%;
+}
+.logoblog a {
+  color: white;
+  display: flex;
+  align-self: flex-start;
+  width: 30%;
+  margin-left: 40px;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.link a {
+  color: white;
+}
+
+.blog-container .link-container .link a {
+  text-decoration: none;
+  color: #f9e42e;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.story-container {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin-right: 20px;
+  margin-left: 40px;
+}
+
+h1 {
+  font-weight: 600px;
+  font-size: 40px;
+  color: #033048;
+}
+
+p {
+  font-weight: 300px;
+  font-size: 24px;
+  color: #606161;
+}
+
+.read {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 600;
+  font-size: 24px;
+  color: #033048;
+}
+
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 32px;
+  color: #033048;
+  margin-bottom: 3px;
+}
+
+.categories {
+  height: 20px;
+  width: 190px;
+}
+
+.about {
+  height: 210px;
+  width: 190px;
+}
+
+p.categories {
+  font-weight: 300px;
+  font-size: 24px;
+  color: #606161;
+}
+
+p.about {
+  font-weight: 300px;
+  font-size: 22px;
+  padding-bottom: 0px;
+}
+
+p.learn {
+  font-weight: 600;
+  font-size: 22px;
+  color: #033048;
+  padding-top: 0px;
+}
+
+.ad-container {
+  background: white;
+  height: 340px;
+  width: 190px;
+  font-weight: 500;
+  font-size: 30px;
+  padding-top: 10px;
+  color: #033048;
+  padding-left: 45px;
+}
+
+.blog-signup {
+  height: 30px;
+  width: 150px;
+  background-color: #033048;
+  color: white;
+  padding-left: 30px;
+  padding-top: 7px;
+  margin-top: 15px;
+  font-weight: 800;
+  font-size: 12px;
+  border-radius: 5%;
+}
+
+.blog-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  padding-top: 20px;
+  color: white;
+  width: 100%;
+  background: #121212;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 96%;
+  background-color: black;
+  height: 1px;
+}
+
+.firstletter {
+  float: left;
+  font-size: 80px;
+  padding-right: 8px;
+  margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
