@@ -15,7 +15,7 @@ body{
 }
 
 body.landing-page {
-   color: #000;
+   color: #f0efef;
    font-size: 12px;
    line-height: 1.4;
    font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -120,16 +120,22 @@ body.blog {
   color: white;
 }
 
-.footer-container h1{
-  font-weight: 800;
-  font-size: 36px;
-  color: yellow;
+.pagenavhp {
   display: flex;
-  justify-content: center;
   justify-content: space-around;
 }
 
-  padding-bottom: 100px;
+.pagenav-blog-container{
+  display: flex;
+  justify-content: space-around
+}
+
+
+
+.blognav-container{
+  display: flex;
+  justify-content: space-around;
+}
 
 
 
@@ -150,5 +156,38 @@ body.blog {
   background-color: #f9e42e;
   padding-top: 20px;
   padding-bottom: 20px;
+}
 
+.blogcontent-container{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+  align-items: baseline;
+}
+
+.image1 {
+  display: flex;
+  justify-content: center;
+}
+
+.image2 {
+  display: flex;
+  justify-content: center;
+}
+
+.sidenav h2{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sidenav {
+  margin-left: 300px;
+}
+
+.blogarticle-container h2{
+  text-align: right;
+}
+
+.blognav-container{
+  display: flex;
 }
