@@ -209,9 +209,34 @@ body.blog {
 
 ul{
   font-size: 24px;
+  list-style: none;
 }
 
 .sidebar-content{
   font-size: 22px;
   font-weight: 600;
+}
+
+.content-container{
+  width: 62%;
+}
+
+.sidebar-container{
+  width: 27%;
+}
+
+.body-container{
+  display: flex;
+}
+
+.blog-photo{
+  width: 100%;
+}
+
+.link{
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: white;
 }
