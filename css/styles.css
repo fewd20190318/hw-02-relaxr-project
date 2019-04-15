@@ -50,7 +50,36 @@ body.blog {
   flex-direction: row;
 }
 
+.returnhomelogoblog{
+  font-weight: 800;
+  font-size: 30px;
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+  padding-left: 10px;
+}
 
+
+/* visited link */
+.returnhomelogoblog a:visited {
+  text-decoration: none;
+  color: white;
+
+}
+
+/* mouse over link */
+.returnhomelogoblog a:hover {
+  text-decoration: none;
+  color: white;
+
+}
+
+
+.returnhomelogoblog a:active {
+  text-decoration: none;
+  color: white;
+
+}
 
 
 .footer-container p{
@@ -93,18 +122,23 @@ body.blog {
   font-weight: 800;
   font-size: 30px;
   color: white;
+  font-style: normal;
+  text-decoration: none;
+  padding-left: 10px;
 }
 
 /* visited link */
-.returnhomelogo a:visited {
+.returnhomelogo:visited {
   color: white;
   text-decoration: none;
+  font-style: normal;
 }
 
 /* mouse over link */
 .returnhomelogo a:hover {
   color: white;
   text-decoration: none;
+  font-style: normal;
 }
 
 
@@ -122,19 +156,28 @@ body.blog {
 
 .pagenavhp {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
+  width: 900px;
+  text-decoration: none;
 }
 
 .pagenav-blog-container{
   display: flex;
-  justify-content: space-around
+  justify-content: flex-end;
+  width: 1400px;
 }
 
 
 
 .blognav-container{
-  display: flex;
-  justify-content: space-around;
+  background-color:  #033048;
+  padding-bottom: 50px;
+}
+
+.blognav-container a{
+  padding: 10px;
+  text-decoration: none;
+  color: #f9e42e;
 }
 
 
@@ -190,4 +233,89 @@ body.blog {
 
 .blognav-container{
   display: flex;
+}
+
+
+/******************LANDING PAGE*******/
+
+/*
+.quotation{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  width: 300px;
+}
+*/
+
+
+
+/***********TEST************/
+
+
+
+
+.signature{
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.quote{
+  font-size: bold
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-top: 100px;
+
+}
+
+
+.benefits-container{
+  background-color: #f0efef;
+  color: #121212;
+  padding: 100px;
+
+}
+
+.getitbutton {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.getitbutton p{
+  background-color: #f9e42e;;
+  color: white;
+  padding: 20px;
+  margin: 0px;
+  color: #033048
+}
+
+.topcta-container h1{
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+
+/* visited link */
+.pagenavhp a:visited {
+  text-decoration: none;
+
+}
+
+/* mouse over link */
+.pagenavhp a:hover {
+  text-decoration: none;
+}
+
+
+.pagenavhp a:active {
+  text-decoration: none;
 }
