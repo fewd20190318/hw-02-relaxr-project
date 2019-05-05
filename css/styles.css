@@ -17,6 +17,8 @@ body.landing-page {
    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
    background-size: cover;
+   margin:0px;
+   padding:0px;
 }
 
 body.blog {
@@ -87,7 +89,7 @@ body.blog {
   margin-left: 22px;
 }
 
-.footer {
+.foot-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -97,14 +99,14 @@ body.blog {
   padding-bottom: 30px;
 }
 
-.logo-footer {
+.logo-foot {
   color: #f9e42e;
 }
 
 .social-media {
   display: flex;
   justify-content: space-around;
-  margin-top: 60px;
+  margin-bottom: 60px;
   width: 15%;
 }
 
@@ -170,7 +172,7 @@ body.blog {
   max-width: 750px;
 }
 
-.testimonial-container{
+.quote-container{
   background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
   display: flex;
@@ -182,18 +184,20 @@ body.blog {
 }
 
 .quote {
+  color: white;
   text-align: center;
   font-weight: 300;
   font-size: 36px;
   font-style: italic;
-  color: white;
+  /* padding-top: 40px; */
   margin:0px;
-  padding-top: 40px;
+
 }
-.quote-name {
-  font-weight: 600;
-  font-size: 36px;
+.quote-author {
   color: white;
+  font-size: 36px;
+  font-weight: 600;
+  font-style: normal;
   margin: 0px;
 }
 
