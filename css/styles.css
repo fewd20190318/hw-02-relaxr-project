@@ -159,13 +159,15 @@ body.blog {
 .benefits-container p {
   font-weight: 300;
   font-size: 26px;
-  font-style: italic;
+  /* font-style: italic; */
   padding-right: 445px;
 }
 
 .benefits-container ul {
   font-weight: 300;
   font-size: 26px;
+  text-overflow: ellipsis;
+  max-width: 750px;
 }
 
 .testimonial-container{
